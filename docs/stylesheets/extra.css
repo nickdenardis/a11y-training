@@ -1,0 +1,94 @@
+/* ABOUTME: Defines brand and accessibility style overrides for the course docs theme. */
+/* ABOUTME: Applies WSU green tokens and link underline behavior for WCAG support. */
+
+:root {
+  --md-primary-fg-color: #0C5449;
+  --md-primary-fg-color--light: #2A6E63;
+  --md-primary-fg-color--dark: #083D35;
+  --md-accent-fg-color: #0C5449;
+  --md-accent-fg-color--transparent: rgba(12, 84, 73, 0.12);
+  --md-typeset-a-color: #0C5449;
+}
+
+[data-md-color-scheme="default"],
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #0C5449;
+  --md-primary-fg-color--light: #2A6E63;
+  --md-primary-fg-color--dark: #083D35;
+  --md-accent-fg-color: #0C5449;
+  --md-accent-fg-color--transparent: rgba(12, 84, 73, 0.12);
+  --md-typeset-a-color: #0C5449;
+}
+
+.md-nav__link:hover,
+.md-nav__link:focus-visible,
+.md-nav__link--active {
+  color: #0C5449;
+}
+
+.md-nav__link[href]:hover,
+.md-nav__link[href]:focus,
+.md-nav__link[href]:focus-visible,
+.md-nav__link[href]:visited:hover,
+.md-nav__link[href]:visited:focus {
+  color: #0C5449;
+}
+
+.md-nav--secondary .md-nav__link:hover,
+.md-nav--secondary .md-nav__link:focus-visible,
+.md-nav--secondary .md-nav__link--active {
+  color: #0C5449;
+}
+
+.md-nav--secondary .md-nav__link[href]:hover,
+.md-nav--secondary .md-nav__link[href]:focus,
+.md-nav--secondary .md-nav__link[href]:focus-visible,
+.md-nav--secondary .md-nav__link[href]:visited:hover,
+.md-nav--secondary .md-nav__link[href]:visited:focus {
+  color: #0C5449;
+}
+
+.md-nav__item--active > .md-nav__link,
+.md-nav__item--active > .md-nav__link:hover,
+.md-nav__item--active > .md-nav__link:focus,
+.md-nav__item--active > .md-nav__link:focus-visible {
+  color: #0C5449;
+}
+
+.md-sidebar__scrollwrap {
+  scrollbar-color: #0C5449 #E8EFED;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar {
+  width: 10px;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar-track {
+  background: #E8EFED;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
+  background-color: #0C5449;
+  border-radius: 999px;
+  border: 2px solid #E8EFED;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar-thumb:hover {
+  background-color: #083D35;
+}
+
+.md-typeset a {
+  text-decoration: underline;
+  text-underline-offset: 0.14em;
+  text-decoration-thickness: 0.08em;
+}
+
+.md-typeset a:hover {
+  text-decoration: none;
+}
+
+.md-typeset a:focus-visible {
+  text-decoration: underline;
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+}

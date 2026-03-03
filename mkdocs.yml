@@ -4,6 +4,10 @@ site_url: http://127.0.0.1:8000
 
 theme:
   name: material
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
   features:
     - navigation.sections
     - navigation.expand
@@ -21,6 +25,9 @@ markdown_extensions:
   - footnotes
   - md_in_html
   - tables
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Intro: index.md
