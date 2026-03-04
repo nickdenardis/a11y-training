@@ -25,6 +25,7 @@ The example above shows the consistency between the search, navigation, and brea
 
 - It can be disorienting for visitors to re-learn how to use various common areas of a site between pages.
 - Link colors, focus ring, visited and active states should be consistent throughout the site.
+- Contact information should be consistent throughout the site.
 - Common examples of changing content when items are focused or user input is auto-complete fields or dropdowns that change content without requiring a button submit.
 - If your website does change context on focus or input, allow the visitor to change that behavior.
 
